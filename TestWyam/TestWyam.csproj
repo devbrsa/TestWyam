@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\adminlte\AdminLTE.css" />
+    <Content Remove="wwwroot\assets\css\bootstrap\bootstrap.css" />
+    <Content Remove="wwwroot\assets\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\assets\css\highlight.css" />
+    <Content Remove="wwwroot\assets\css\mermaid.css" />
+    <Content Remove="wwwroot\assets\css\theme\theme.css" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\assets\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Remove="wwwroot\assets\img\logo.png" />
+    <Content Remove="wwwroot\assets\js\app.js" />
+    <Content Remove="wwwroot\assets\js\app.min.js" />
+    <Content Remove="wwwroot\assets\js\bootstrap.js" />
+    <Content Remove="wwwroot\assets\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\assets\js\highlight.pack.js" />
+    <Content Remove="wwwroot\assets\js\html5shiv.min.js" />
+    <Content Remove="wwwroot\assets\js\jquery-2.2.3.min.js" />
+    <Content Remove="wwwroot\assets\js\jquery.slimscroll.min.js" />
+    <Content Remove="wwwroot\assets\js\jquery.sticky-kit.min.js" />
+    <Content Remove="wwwroot\assets\js\lunr.min.js" />
+    <Content Remove="wwwroot\assets\js\mermaid.min.js" />
+    <Content Remove="wwwroot\assets\js\respond.min.js" />
+    <Content Remove="wwwroot\assets\js\turbolinks.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+    <PackageReference Include="Wyam" Version="1.4.1" />
+    <PackageReference Include="Wyam.Razor" Version="1.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\adminlte\AdminLTE.css" />
+    <None Include="wwwroot\assets\css\bootstrap\bootstrap.css" />
+    <None Include="wwwroot\assets\css\font-awesome.min.css" />
+    <None Include="wwwroot\assets\css\highlight.css" />
+    <None Include="wwwroot\assets\css\mermaid.css" />
+    <None Include="wwwroot\assets\css\theme\theme.css" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\assets\img\logo.png" />
+    <None Include="wwwroot\assets\js\app.js" />
+    <None Include="wwwroot\assets\js\app.min.js" />
+    <None Include="wwwroot\assets\js\bootstrap.js" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\highlight.pack.js" />
+    <None Include="wwwroot\assets\js\html5shiv.min.js" />
+    <None Include="wwwroot\assets\js\jquery-2.2.3.min.js" />
+    <None Include="wwwroot\assets\js\jquery.slimscroll.min.js" />
+    <None Include="wwwroot\assets\js\jquery.sticky-kit.min.js" />
+    <None Include="wwwroot\assets\js\lunr.min.js" />
+    <None Include="wwwroot\assets\js\mermaid.min.js" />
+    <None Include="wwwroot\assets\js\respond.min.js" />
+    <None Include="wwwroot\assets\js\turbolinks.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Blog\" />
+  </ItemGroup>
+
+</Project>
